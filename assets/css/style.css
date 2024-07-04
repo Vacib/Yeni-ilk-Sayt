@@ -1,0 +1,411 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+      font-family: "Source Sans 3", sans-serif;
+}
+.container{
+      width: 85%;
+      margin: auto;
+      
+    
+}
+header{
+      width: 100%;
+      height: 695px;
+   
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      padding-top: 210px;
+      background-image:linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),url("../image/sekil.jpg");
+      background-position: center center;
+}
+header h1{
+font-size: 80px;
+font-weight: bold;
+}
+header h3{
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 50px;
+}
+header a{
+      text-decoration: none;
+      color: white;
+      background-color: #1D809F;
+      padding: 20px 40px;
+      border-radius: 5px;
+}
+header a:hover{
+      background-color: #17667f;
+}
+.icon{
+width: 50px;
+height: 50px;
+background-color: rgba(52, 58, 64, 0.5);
+text-align: center;
+color: white;
+line-height: 50px;
+border-radius: 5px;
+position: fixed;
+right: 10px;
+top: 10px;
+font-size: 20px;
+}
+.icon:hover{
+      background-color: #343a40;
+}
+.section-1{
+display: flex;
+      width: 100%;
+      height: 300px;
+      text-align: center;
+}
+.section-1 .container .text h2{
+     font-size: 32px;
+     font-weight: 700;
+
+}
+.section-1 .container .text p{
+      font-size: 20px;
+      font-weight: 300;
+      padding-top: 10px;
+      margin-bottom: 70px;
+}
+.section-1 .container .text p a{
+      font-size: 18px;
+      font-weight: 300;
+      color: #1d809f;
+}
+.section-1 .container .text>a{
+      text-decoration: none;
+      color: white;
+      background-color: #212529;
+      padding: 20px 40px;
+      border-radius: 5px;
+    
+}
+.section-2{
+      margin-top: 30px;
+   padding: 60px 0px;
+      width: 100%;
+      margin: auto;
+      height: 450px;
+      text-align: center; 
+      background-color: rgba(12, 128, 159, 1); 
+    
+}
+.section-2>.container>.text-1>h3{
+      font-size: 18px;
+      color: #ecb807;
+      
+}
+.section-2>.container>.text-1>h1{
+      font-size: 48px;
+      color: #fff;
+      margin: 0px 0px 48px;
+}
+.section-2>.container>.section-2-card{
+      width: 100%;
+      display: flex;
+     margin: auto;
+ 
+  
+  
+     
+}
+.section-2-card>.card-2{
+      width: 80%;
+ display: flex;
+ justify-content: center;  
+}
+.section-2-card>.card-2>.section-2-icons{
+
+
+      width: 130px;
+      height: 130px;
+      background-color: white;
+      border-radius: 50%; 
+}
+.section-2-card>.card-2>.section-2-icons>i{
+     font-size: 50px;
+     color: #1D809F;
+     line-height: 130px;
+}
+.section-2-card>.card-2>.section-2-icons>h4{
+      padding-top: 5px;
+      font-size: 22px;
+      color: white;
+      width: 250px;
+     margin-left: -60px;   
+}
+.section-2-card>.card-2>.section-2-icons>p{
+      padding-top: 5px;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.7);
+      width: 280px;
+     margin-left: -70px;
+      
+}
+.section-3{
+      width: 100%;
+     height: 600px;
+      background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../image/sekil2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+      margin: auto;
+}
+
+.section-3>.container>.text-3>h2{
+max-width:450px;
+font-size: 50px;
+text-align: center;
+margin: auto;
+padding-top: 180px;
+font-weight: 900;
+color: #212529;
+margin-bottom: 50px;
+}
+.section-3>.container>.text-3>.ateqi{
+
+      text-decoration: none;
+      padding: 25px 40px;
+      margin-top: 50px;
+      background-color: #1D809F;
+      color: white;
+      text-transform: capitalize;
+      border-radius: 4px;
+      font-size: 18px; 
+       transition: 0.8s;
+     margin-left: 550px;  
+}
+.section-3>.container>.text-3>.ateqi:hover{
+      background-color: #196d87;     
+}
+
+.section-4{
+width: 100%;
+height: auto;
+text-align: center;
+/* display: flex; */
+
+}
+.section-4>.container>.text-basliq>h3{
+ font-size: 20px;  
+ color: #ecb807;   
+ padding-top: 100px;
+
+     
+}
+
+.section-4>.container>.text-basliq>h2{
+      font-size: 60px;
+      color: #212529;
+      margin-bottom: 30px;
+}
+
+
+.section-4-card{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: auto;
+
+}
+.section-4-card .card-4{
+      width: 50%;
+      /* margin: -1px; */
+      /* height: 400px; */
+      position: relative;
+      clip-path: inset(0);
+      transition: 0.5s;
+}
+.section-4-card .card-4:hover{
+      clip-path: inset(20px);
+}
+.section-4-card .card-4 img{
+      width: 100%;
+      height: 100%;
+      /* object-fit: cover;
+      overflow: hidden; */
+}
+.overlay{
+      position: absolute;
+      /* background-color: rgba(10, 109, 118, 0.551); */
+      width: 100%;
+      height: 100%;
+      clip-path: inset(0px);
+  
+}
+.overlay:hover{
+       background-color: rgba(10, 109, 118, 0.551);
+}
+.content{
+      position: absolute;
+      bottom: 50px;
+
+}
+.content .h-1{
+      width: 200px;
+      font-size: 18px;
+      color: #fff;
+      position: absolute;
+      bottom: 65px; 
+      left: 20px;       
+}
+.content .h-2{
+      width: 200px;
+      font-size: 18px;
+      color: #fff;
+      position: absolute;
+      bottom: 100px; 
+      left: 20px;       
+}
+.content .h-3{
+      width: 200px;
+      font-size: 18px;
+      color: #fff;
+      position: absolute;
+      bottom: 100px; 
+      left: 20px;       
+}
+.content .h-4{
+      width: 200px;
+      font-size: 18px;
+      color: #fff;
+      position: absolute;
+      bottom: 100px; 
+      left: 20px;       
+}
+.content .p-1{
+      width: 450px;
+      font-size: 18px;
+      position: absolute;
+      color: #fff;
+ bottom: 30px;
+ text-align: left;
+      left: 80px;
+}
+.content .p-3{
+      width: 450px;
+      font-size: 18px;
+      position: absolute;
+      color: #fff;
+ bottom: 40px;
+ text-align: left;
+      left: 70px;
+}
+
+.content p{
+     
+      width: 450px;
+      font-size: 18px;
+      position: absolute;
+      color: #fff;
+ bottom: 40px;
+ text-align: left;
+      left: 80px;
+      
+}
+.section-5{
+      width: 100%;
+      height: 300px;
+      background-color: #1D809F;
+      text-align: center;
+      margin-top: 80px;
+}
+.section-5 h2{
+      font-size: 32px;
+      color: #fff;
+      padding-top: 90px;
+      margin-bottom: 50px;
+}
+.section-5 .click-me{
+      font-size: 18px;
+      background-color: #fff;
+      padding: 20px 40px;
+      border-radius: 7px;
+      margin: 0px 20px;
+      text-decoration: none;
+      color: black;
+}
+.section-5 .click-me:hover{
+      background-color: #d3d4d5;
+}
+
+.section-5 .lookAtme{
+      font-size: 18px;
+      background-color: #212529;
+      padding: 20px 40px;
+      border-radius: 7px;
+      margin: 0px 20px;
+      text-decoration: none;
+      color: #fff;
+}
+.section-5 .lookAtme:hover{
+background-color: #424649;
+}
+.section-6{
+      width: 100%;
+      height: auto;
+      text-align: center;
+}
+.section-6 iframe{
+      width: 100%;
+    
+}
+
+.footer{
+      width: 100%;
+      height: 300px;
+      padding: 15px;
+      text-align: center;
+      display: flex;
+      margin: auto;
+
+}
+
+.footer-listler{
+      width: 100%;
+      text-align: center;
+      
+     
+ 
+}
+.listler{
+      width: 100%;
+      height: 170px;
+      list-style: none;
+     display: flex;
+     justify-content: center;
+     
+}
+.listler li{
+
+      padding: 60px 0px;
+   
+}
+.listler li a{
+
+      font-size: 25px;
+    
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+} 
+.listler li a i{
+     width: 70px;  
+     height: 70px;
+     background-color: #1D809F;
+     line-height: 70px;
+     border-radius: 50%;
+}
+.footer-listler p{
+      font-size: 15px;
+}
